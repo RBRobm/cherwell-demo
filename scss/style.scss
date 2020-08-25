@@ -1,0 +1,79 @@
+$primary-color: blue;
+$fb-color: #1877f2;
+$twitter-color: #1da1f2;
+$yt-color: #ff0000;
+$linkedin-color: #007bb5;
+$rb-success: #3eae4a;
+$rb-primary: #0190ba;
+
+//Social Medio Icons
+.fa-facebook-square {
+  color: $fb-color;
+}
+
+.fa-linkedin {
+  color: $linkedin-color;
+}
+
+.fa-twitter-square {
+  color: $twitter-color;
+}
+
+.fa-youtube-square {
+  color: $yt-color;
+}
+
+.fa-arrow-circle-right {
+  margin-right: 0.25rem;
+  color: #3fae48;
+}
+//Jumbotron
+
+.showcase {
+  padding: 2rem;
+  background: url('../img/hero_bg.jpg') no-repeat center center/cover;
+  color: white;
+  margin-bottom: 5rem;
+
+  .rb-success {
+    color: #3eae4a;
+  }
+}
+
+#sponsors {
+  background: #9f9f9f;
+  padding: 2rem;
+  margin-bottom: 4rem;
+}
+
+.form {
+  background: rgba(0, 0, 0, 0.6);
+  padding-left: 2rem;
+  padding-top: 1rem;
+  border-radius: 5px;
+}
+
+//Cards
+.card-title {
+  color: $rb-primary;
+}
+
+#services {
+  margin-bottom: 5rem;
+}
+
+//Agenda
+
+#agenda {
+  padding: 4rem;
+  background: url('../img/agenda_bg.jpg') no-repeat center center/cover;
+  color: white;
+
+  .list-item {
+    font-size: 1.25rem;
+  }
+}
+
+#footer {
+  padding: 4rem;
+}
