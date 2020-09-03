@@ -7,15 +7,6 @@
       name="viewport"
       content="width=device-width, initial-scale=1, shrink-to-fit=no"
     />
-    <!-- Start of HubSpot Embed Code -->
-    <script
-      type="text/javascript"
-      id="hs-script-loader"
-      async
-      defer
-      src="//js.hs-scripts.com/8226104.js"
-    ></script>
-    <!-- End of HubSpot Embed Code -->
 
     <!-- Bootstrap CSS -->
     <link
@@ -50,7 +41,7 @@
     <div class="showcase">
       <div class="container">
         <div class="row">
-          <div class="col-md-8 mt-5">
+          <div class="col-md-7 mt-5">
             <h5 class="text-uppercase">Join RennerBrown and Cherwell for</h5>
             <h1 class="display-4 rb-success">No-Code During a Crisis</h1>
 
@@ -81,85 +72,12 @@
                 providing modern day service experiences
               </li>
             </ul>
-            <ul class="list-unstyled text-left">
-              <h3 class="my-3 pb-3 border-bottom border-dark">
-                When and Where
-              </h3>
-              <li class="web-details mb-2">
-                <i class="far fa-calendar-alt mr-4"></i>October 1, 2020
-              </li>
-              <li class="web-details mb-2">
-                <i class="far fa-clock mr-3"></i>1:00 PM (EST)
-              </li>
-              <li class="web-details">
-                <i class="fas fa-thumbtack mr-4"></i>Online
-              </li>
-            </ul>
           </div>
-          <!--End of First Column in Hero-->
-          <div class="col-md-4">
-            <form
-              class="needs-validation"
-              novalidate
-              action="confirmation.html"
-            >
-              <div class="form-group">
-                <label for="firstName">First Name</label>
-                <input
-                  type="text"
-                  class="form-control"
-                  id="firstName"
-                  required
-                />
-                <div class="invalid-feedback">First Name is Required</div>
-              </div>
-              <div class="form-group">
-                <label for="lastName">Last Name</label>
-                <input
-                  type="text"
-                  class="form-control"
-                  id="lastName"
-                  required
-                />
-                <div class="invalid-feedback">Last Name is Required</div>
-              </div>
-              <div class="form-group">
-                <label for="email">Email address</label>
-                <input type="email" class="form-control" id="email" required />
-                <div class="invalid-feedback">Email Address is Required</div>
-                <small id="emailHelp" class="form-text text-muted"
-                  >We'll never share your email with anyone else.</small
-                >
-              </div>
-              <div class="form-group">
-                <label for="company">Company</label>
-                <input type="text" class="form-control" id="company" required />
-                <div class="invalid-feedback">Company is Required</div>
-              </div>
-              <div class="form-group">
-                <label for="jobTitle">Job Title</label>
-                <input
-                  type="text"
-                  class="form-control"
-                  id="jobTitle"
-                  required
-                />
-                <div class="invalid-feedback">Job Title is Required</div>
-              </div>
-              <div class="form-group">
-                <label for="phoneNumber">Phone Number</label>
-                <input
-                  type="text"
-                  class="form-control"
-                  id="phoneNumber"
-                  required
-                />
-                <div class="invalid-feedback">Phone Number is Required</div>
-              </div>
-              <button type="submit" class="btn rb-success-btn btn-block">
-                Sign Me Up
-              </button>
-            </form>
+          <div class="col-md-5 mt-5">
+            <h3>Thank you for your submission</h1>
+            <p class="lead">
+              An calendar invite will be sent to your email shortly
+            </p>
           </div>
         </div>
       </div>
@@ -371,7 +289,6 @@
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-
     <script
       src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
       integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
@@ -387,35 +304,5 @@
       integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
       crossorigin="anonymous"
     ></script>
-    <script>
-      // Example starter JavaScript for disabling form submissions if there are invalid fields
-      (function () {
-        'use strict';
-        window.addEventListener(
-          'load',
-          function () {
-            // Fetch all the forms we want to apply custom Bootstrap validation styles to
-            var forms = document.getElementsByClassName('needs-validation');
-            // Loop over them and prevent submission
-            var validation = Array.prototype.filter.call(forms, function (
-              form
-            ) {
-              form.addEventListener(
-                'submit',
-                function (event) {
-                  if (form.checkValidity() === false) {
-                    event.preventDefault();
-                    event.stopPropagation();
-                  }
-                  form.classList.add('was-validated');
-                },
-                false
-              );
-            });
-          },
-          false
-        );
-      })();
-    </script>
   </body>
 </html>
