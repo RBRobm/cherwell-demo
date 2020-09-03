@@ -42,6 +42,11 @@ $rb-primary: #0190ba;
 
   .rb-success {
     color: #3eae4a;
+
+    &-btn {
+      background: #3eae4a;
+      color: white;
+    }
   }
 }
 
@@ -51,11 +56,18 @@ $rb-primary: #0190ba;
   margin-bottom: 4rem;
 }
 
-.form {
+form {
   background: rgba(0, 0, 0, 0.6);
-  padding-left: 2rem;
-  padding-top: 1rem;
+  padding: 2rem;
   border-radius: 5px;
+}
+.web-details {
+  font-size: 1.25rem;
+
+  .fas,
+  .far {
+    color: #3eae4a;
+  }
 }
 
 //Cards
